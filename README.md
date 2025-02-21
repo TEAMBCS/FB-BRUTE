@@ -6,14 +6,14 @@ This tool is a **brute-force tool** designed to attempt login credentials on Fac
 
 ### **1. Purpose**
 The purpose of your code is to:
-- Automate login attempts to Instagram.
+- Automate login attempts to Facebook.
 - Check if a password is correct for a given username.
 - Handle successful logins, accounts requiring two-factor authentication (2FA), and failed attempts.
 
 ---
 
 ### **2. Key Features**
-- **Username Input:** The script asks for the Instagram username.
+- **Username Input:** The script asks for the Facebook uid, email or number .
 - **Password File Input:** It accepts a combo file containing a list of passwords to test.
 - **Multi-threading:** Each password is tested in a separate thread, which speeds up the brute-force process.
 - **HTTP Requests:** It uses Python's `requests` library to send login requests to Instagram.
@@ -60,7 +60,7 @@ The purpose of your code is to:
 
 ### **5. Suggestions for Improvement**
 1. **Add Proxy Support:**
-   - Use a list of proxies to avoid rate-limiting or IP bans from Instagram.
+   - Use a list of proxies to avoid rate-limiting or IP bans from Facebook.
 
 2. **Error Recovery:**
    - If the tool crashes, implement a mechanism to resume from where it left off instead of starting over.
