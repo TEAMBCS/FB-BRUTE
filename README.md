@@ -84,7 +84,7 @@ If you're using this tool:
 This script showcases your coding ability and understanding of HTTP requests, threading, and terminal customization. However, ensure you use it responsibly and enhance it further to meet your needs.
 
 
-# command
+# command For Termux
 ```bash
  pkg update
 
@@ -105,6 +105,12 @@ This script showcases your coding ability and understanding of HTTP requests, th
  python3 setup.py
 
  python3 BRUTE.py
+```
+# Command for KALI LINUX 
+JUST USE 
+bash 
+```
+python3 setup-2.py
 ```
 # *Tool pass* ©️
 
